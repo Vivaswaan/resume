@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #221f1f;
+    --text-color: #221f1f;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: white;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem;
+    background: white;
+}
+
+.group1,
+.group2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titles {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.itemtitle {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.subtitle,
+.pretitle,
+.description,
+.project-subtitle {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.fname,
+.lname {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin-top: 0.8rem;
+    font-weight: 400;
+    margin-bottom: -0.0rem;
+}
+
+.describe_para {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+.contact-info {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.titles.education {
+    margin-top: 1.5rem;
+}
+
+.contact-info > a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.special-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.group1 a,
+.ach a,
+.course a,
+.leet-link a,
+.skills a {
+    text-decoration: none;
+}
+.spec-link{
+    text-decoration: none;
+}
+.profile_container {
+    text-align: center;
+}
+.skills li{
+    margin-top: 0.8rem;
+}
