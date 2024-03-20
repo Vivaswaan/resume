@@ -115,3 +115,10 @@ body {
 .skills li{
     margin-top: 0.8rem;
 }
+img{
+    width: 100%;
+    height: 85%;
+}
+.profileimg{
+    max-width: 250px;
+}
