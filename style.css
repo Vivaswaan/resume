@@ -105,7 +105,7 @@ body {
 
 .eduitem a{
     color: var(--primary-color);
-    text-decoration: none;
+    text-decoration: underline;
 }
 .group1 a,
 .ach a,
