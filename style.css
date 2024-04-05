@@ -103,6 +103,10 @@ body {
     text-decoration: none;
 }
 
+.eduitem a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
 .group1 a,
 .ach a,
 .course a,
